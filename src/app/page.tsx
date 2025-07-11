@@ -61,7 +61,54 @@ return (
 
     {/* top lip */}
     <div className="relative w-full h-[2.1875vw]">
-
+      <div className="absolute top-[0] left-[0] z-[5] w-full h-[2.1875vw] flex justify-center align-center">
+        {/* Pick a Box */}
+        <div className="font-[800] font-[#1f1f1f] items-center flex text-[0.83333vw] gap-x-[0.52083vw]">
+          {/* Pick a Box Icon */}
+          <div className="w-[1.45833vw] h-[1.45833vw]">
+            <div className="relative inline-block">
+              <img src={"https://cdn-global.popmart.com/images/boxPC/bigBox/buyStepPickOneIconActive4.png?x-oss-process=image/format,webp"}></img>
+            </div>
+          </div>
+          {/* Pick a Box text */}
+          <div className="relative">
+            <div className="absolute h-[0.20833vw] w-full bottom-[0.26042vw] left-0 bg-[#ffe100]"></div>
+            <div className="relative z-[2]">Pick A Box</div>
+          </div>
+        </div>
+        {/* arrow */}
+        <div className="h-[0.625vw] w-[2.70833vw] my-0 mx-[2.91667vw]">
+          <div className="relative inline-block">
+            <img src={"https://cdn-global.popmart.com/images/box/pc/step_arrow_pc.png?x-oss-process=image/format,webp"}></img>
+          </div>
+        </div>
+        {/* Shake For Tips */}
+        <div className="flex items-center gap-y-0 gap-x-[0.52083vw] font-[400] text-[0.83333vw] text-[#4a4a4a]">
+          <div className="w-[1.45833vw] h-[1.45833vw]">
+            <div className="relative inline-block">
+              <img src={"https://cdn-global.popmart.com/images/boxPC/bigBox/buyStepShakeIcon4.png?x-oss-process=image/format,webp"}></img>
+            </div>
+          </div>
+          <div className="relative">Shake For Tips</div>
+        </div>
+        {/* arrow */}
+        <div className="h-[0.625vw] w-[2.70833vw] my-0 mx-[2.91667vw]">
+          <div className="relative inline-block">
+            <img src={"https://cdn-global.popmart.com/images/box/pc/step_arrow_pc.png?x-oss-process=image/format,webp"}></img>
+          </div>
+        </div>
+        {/* Unbox Now */}
+        <div className="flex items-center gap-y-0 gap-x-[0.52083vw] font-[400] text-[0.83333vw] text-[#4a4a4a]">
+          <div className="w-[1.45833vw] h-[1.45833vw]">
+            <div className="relative inline-block">
+              <img src={"https://cdn-global.popmart.com/images/boxPC/bigBox/buyStepUnboxIcon4.png?x-oss-process=image/format,webp"}></img>
+            </div>
+          </div>
+          <div className="relative">
+            <div>Unbox Now</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     {/* top card */}
@@ -89,7 +136,7 @@ return (
                   className="hover:scale-105 transition-transform focus:outline-none"
                 >
                   <Image
-                    src="https://global-static.popmart.com/globalAdmin/1750642174003____box_pic_with_shadow____.png"
+                    src="https://global-static.popmart.com/globalAdmin/1751420904525____box_pic_with_shadow____.png"
                     alt={`Box ${i + 1}`}
                     width={size.width}
                     height={size.height}
